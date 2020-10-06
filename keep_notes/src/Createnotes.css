@@ -1,0 +1,65 @@
+
+.createnotes
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.createnotes_inp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.createnotes_inp1
+{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #F4C724;
+    color: white;
+}
+.createnotes_tex #standard-basic
+{
+    color:white;
+    font-size: 22px;
+    font-weight: 600;
+   
+   
+}
+.createnotes_tex label{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color:grey;
+    font-weight: 400;
+}
+.createnotes_text
+{
+    display: flex;
+    border:none;
+    outline: none;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #F4C724;
+    color: white;
+    border-bottom: 1px black;
+    font-size: 22px;
+    margin-top: 10px;
+
+}
+
+.createnotes_btn
+{
+    border: none;
+    background: none;
+    color:white;
+    padding-left:180px;
+    margin-top: -40px;
+    width: 200px !important;
+    outline: none;
+    cursor: pointer;
+}
+

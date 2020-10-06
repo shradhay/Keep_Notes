@@ -1,0 +1,40 @@
+.notes
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.note_div
+{
+    display: flex;
+    flex-wrap:wrap;
+}
+.notes_info
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEC213;
+    justify-content: flex-start;
+    margin-bottom: 2px;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    color:white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.notes button
+{
+    color:white;
+    
+    outline: none;
+    background: none;
+    border: none;
+    margin-left: 120px;
+    padding-top: 20px;
+    cursor: pointer;
+
+   
+}
+
+

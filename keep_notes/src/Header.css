@@ -1,0 +1,30 @@
+*
+{
+    margin:0;
+    padding:0;
+   
+}
+.header
+{
+    background-color:#FAC42F ;
+    display: flex;
+}
+.header_info
+{
+    display: flex;
+    justify-content: center;
+ 
+}
+.header_logo
+{
+    width:100px;
+    object-fit: contain;
+    
+}
+.header_title
+{
+    margin-top:30px;
+    color:White;
+    font-size: 32px;
+    font-weight: 500;
+}
