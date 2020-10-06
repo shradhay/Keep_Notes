@@ -33,7 +33,7 @@ function App() {
    <>
    <Header/>
    <CreateNotes  passNote={CreateNote}/>
-   
+   <div className="app_notes">
    {
      createnote.map((note,index)=>{
        return(
@@ -50,6 +50,10 @@ function App() {
        )
      })
    }
+
+   </div>
+   
+  
  
 
    

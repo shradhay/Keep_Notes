@@ -20,9 +20,12 @@ function CreateNotes(props) {
         })
 
     }
+    
     const createnotebtn=(e)=>{
 
         e.preventDefault();
+    
+   
         props.passNote(addnote)
         
         setaddNote({
@@ -30,13 +33,16 @@ function CreateNotes(props) {
             content :""
 
         })
+
+    
+       
              
 
     }
     return (
         <div className="createnotes">
             
-            <form className="createnotes_inp">
+            <form className="createnotes_inp" autoComplete="off">
                 <div className="createnotes_inp1">
                  <TextField   
                  onChange={addnotes}
@@ -45,7 +51,7 @@ function CreateNotes(props) {
                  className="createnotes_tex"
                   id="standard-basic" 
                   label="Title"
-                  autoComplete="false"/>
+                  />
                  <TextareaAutosize  
                   onChange={addnotes}
                   name="content"
