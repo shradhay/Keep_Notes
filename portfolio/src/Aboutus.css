@@ -1,0 +1,75 @@
+.about_main
+{
+    background-color: #000000;
+}
+.about_main_heading{
+    text-align: center;
+    color:#fff;
+    padding-top:12px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.aboutus
+{
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+.aboutus_image
+{
+    border-radius: 150px;
+    width: 200px;
+
+}
+.aboutus_infor
+{
+    display: flex;
+  
+   flex-direction: column;
+   color:#fff;
+}
+.skill
+{
+    display: flex;
+    justify-content: center;
+}
+.skill_sub_bar
+{
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    
+}
+.skill
+{
+    
+    margin-top: 12px;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.skill_sub
+{
+    display: flex;
+    justify-content: center;
+   padding:20px;
+   flex-direction: column;
+}
+.bar 
+{
+    width:400px;
+    margin-left:20px;
+    height: 200px;
+    margin-top:12px ;
+}
+.skill_logo
+{
+    margin-right: 12px;
+   margin-bottom: 20px;
+   
+}

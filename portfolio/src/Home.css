@@ -1,0 +1,49 @@
+.home
+{
+    padding:0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.home_bg
+{
+    background-image: url("./images/header_img.jpg");
+    background-repeat: no-repeat;
+     width:100%;
+    background-size:100% 100% ;
+    z-index: 10;
+    margin-top: -90px;
+    height: 550px;
+}
+
+.home_info
+{
+    display: flex;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:150px;
+    
+
+}
+.home_info_p
+{
+    
+}
+.home_info h1{
+    font-weight: 700;
+}
+.home_icon
+{
+    display: flex;
+    
+}
+.home_icon a
+{
+    padding-right:10px;
+   
+}
+.home_icon a:hover
+{
+    color:white;
+}

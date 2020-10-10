@@ -1,0 +1,38 @@
+nav
+{
+    background: transparent;
+    z-index: 100;
+    position: sticky;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.navbar_link{
+    display: flex;
+    justify-content: space-between;
+}
+.link
+{
+    color:white;
+    padding:30px;
+    text-decoration: none;
+}
+.link:hover 
+{
+    text-decoration: none;
+    color:white;
+    border-bottom: 1px solid blue;
+  
+}
+.active
+{
+    text-decoration: none;
+    color:white;
+    border-bottom: 1px solid blue;
+  
+
+}
